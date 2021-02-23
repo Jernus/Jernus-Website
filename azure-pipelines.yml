@@ -9,6 +9,9 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+variables:
+  rootDir: 'jernus-website'
+  buildDir: '$(rootDir)/build'
 steps:
 - task: NodeTool@0
   inputs:
