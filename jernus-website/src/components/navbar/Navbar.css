@@ -4,6 +4,18 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 2%;
+}
 
-    border: black 2px solid;
+#left, #right{
+    align-self: center;
+}
+
+#left{
+    width: 30%;
+    height: 100%;
+}
+
+#right{
+    width: 60%;
 }
