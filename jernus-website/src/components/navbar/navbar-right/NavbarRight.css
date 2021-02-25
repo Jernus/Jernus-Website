@@ -14,20 +14,15 @@
     text-decoration: none;
     color: #ffefd5;
     position: relative;
+    transition: 0.7s;
 }
 
-/* #nav-right a:hover{
-    color: crimson;
-    text-decoration: underline;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-} */
-
 .nav-link:after{
+    content: "";
     display: block;
-    content: "hi";
     position: absolute;
     width: 0;
-    height: 2px;
+    height: 4px;
     left: 50%;
     bottom: 0;
     background-color: #ffefd5;
@@ -38,32 +33,3 @@
     width: 100%;
     left: 0;
 }
-
-/* a {
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    letter-spacing: 0.15em;
-    
-    display: inline-block;
-    padding: 15px 20px;
-    position: relative;
-  } */
-
-/* a:after{
-    background: none repeat scroll 0 0 transparent;
-  bottom: 0;
-  content: "";
-  display: block;
-  height: 2px;
-  left: 50%;
-  position: absolute;
-  background: #fff;
-  transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
-}
-
-a:hover:after{
-    width: 100%; 
-  left: 0; 
-} */
