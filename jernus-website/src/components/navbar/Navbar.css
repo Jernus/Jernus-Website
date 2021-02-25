@@ -12,11 +12,11 @@
 }
 
 #left{
-    width: 30%;
+    width: auto;
     height: 100%;
 }
 
 #right{
-    width: 60%;
+    width: auto;
     margin-right: 20px;
 }

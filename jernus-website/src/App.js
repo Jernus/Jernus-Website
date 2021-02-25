@@ -6,16 +6,20 @@ import Project from './components/project-page/Project';
 import Achivement from './components/achivement-page/Achivement';
 import Contact from './components/contact-page/Contact';
 
+import './App.css';
+
 function App() {
   return (
     <div className="App">
       <CoverPage />
-      <AboutMe />
-      <Education />
-      <Skill />
-      <Project />
-      <Achivement />
-      <Contact />
+      <div id="main-body">
+        <AboutMe />
+        <Education />
+        <Skill />
+        <Project />
+        <Achivement />
+        <Contact />
+      </div>
     </div>
   );
 }
