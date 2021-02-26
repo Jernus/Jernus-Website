@@ -35,9 +35,9 @@
 }
 
 #about-me-content{
-    border: black 2px solid;
     width: 50%;
     margin-right: 50px;
+    text-align: justify;
     font-family: 'Cormorant Garamond', serif;
     font-size: 27px;
 }

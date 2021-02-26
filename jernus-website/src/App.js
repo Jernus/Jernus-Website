@@ -1,9 +1,9 @@
 import CoverPage from './components/cover-page/CoverPage';
 import AboutMe from './components/aboutme-page/AboutMe';
 import Education from './components/education-page/Education';
-import Skill from './components/skill-page/Skill';
 import Project from './components/project-page/Project';
-import Achivement from './components/achivement-page/Achivement';
+import Experience from './components/experience-page/Experience';
+import Skill from './components/skill-page/Skill';
 import Contact from './components/contact-page/Contact';
 
 import './App.css';
@@ -15,9 +15,9 @@ function App() {
       <div id="main-body">
         <AboutMe />
         <Education />
-        <Skill />
         <Project />
-        <Achivement />
+        <Experience />
+        <Skill />
         <Contact />
       </div>
     </div>
