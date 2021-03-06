@@ -1,5 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;900&display=swap');
+
 #experience-page{
     width: 100%;
-    height: 600px;
-    background-color: darkorchid;
+    height: auto;
+}
+
+#experience-head{
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding: 20px 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+}
+
+#experience-body{
+    display: flex;
+    justify-content: space-around;
+}
+
+#experience-body :is(h4, p){
+    margin: 2px;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#experience-body h4{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+#experience-body ul{
+    margin-top: 0;
+}
+
+#experience-body li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    line-height: 1.7;
 }

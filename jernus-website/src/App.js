@@ -3,7 +3,6 @@ import AboutMe from './components/aboutme-page/AboutMe';
 import Education from './components/education-page/Education';
 import Project from './components/project-page/Project';
 import Experience from './components/experience-page/Experience';
-import Skill from './components/skill-page/Skill';
 import Contact from './components/contact-page/Contact';
 
 import './App.css';
@@ -17,7 +16,6 @@ function App() {
         <Education />
         <Project />
         <Experience />
-        <Skill />
         <Contact />
       </div>
     </div>
